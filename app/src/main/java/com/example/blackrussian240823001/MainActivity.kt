@@ -38,6 +38,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         modifier = modifier
     )
     Log.d("1", "1");
+    Log.d("2", "2");
 }
 
 @Preview(showBackground = true)
