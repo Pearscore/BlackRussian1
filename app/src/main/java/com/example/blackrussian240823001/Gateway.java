@@ -7,11 +7,12 @@ import java.net.URL;
 
 public class Gateway {
     public void runTestGateway() {
-        String target = "www.google.com";
+        String target1 = "www.google.com";
+        String target2 = "www.naver.com";
 
         URL targetURL = null;
         try {
-            targetURL = new URL(target);
+            targetURL = new URL(target2);
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
