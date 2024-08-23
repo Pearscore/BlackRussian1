@@ -9,6 +9,7 @@ public class Gateway {
     public void runTestGateway() {
         String target1 = "www.google.com";
         String target2 = "www.naver.com";
+        String target3 = "www.kakao.com";
 
         URL targetURL = null;
         try {
