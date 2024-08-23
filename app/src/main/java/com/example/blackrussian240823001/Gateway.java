@@ -21,7 +21,7 @@ public class Gateway {
         HttpURLConnection huConnection = new HttpURLConnection(targetURL) {
             @Override
             public void disconnect() {
-
+                // make change in work-on-office
             }
 
             @Override
